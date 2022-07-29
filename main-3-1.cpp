@@ -3,8 +3,8 @@
 extern bool is_fanarray(int[], int);
 
 int main() {
-    int array[5] = {2,1,3,1,2};
+    int array[4] = {2,4,4,2};
     
-    std::cout << "array is fan: " << is_fanarray(array, 5) << std::endl;;
+    std::cout << "array is fan: " << is_fanarray(array, 4) << std::endl;;
     return 0;
 }
