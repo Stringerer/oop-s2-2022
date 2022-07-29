@@ -8,10 +8,12 @@ int median_array(int array[], int n){
                 array[j+1] = temp;
             }
         }
-
     }
     int median = array[n/2];
     if (n < 1){
+        median = 0;
+    }
+    if (n%2==0){
         median = 0;
     }
     return median;
