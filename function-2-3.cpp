@@ -43,7 +43,13 @@ int sum_if_palindrome(int integers[], int length){
     int sum;
     bool pal_check = is_palindrome(integers,length);
     if (pal_check == true){
-        sum = sum_array_elements(integers, length);
+        if (length > 0){
+            sum = sum_array_elements(integers, length);
+        }
+        else{
+            sum = -1;
+        }
+        
     }
     else{
         sum = -2;
