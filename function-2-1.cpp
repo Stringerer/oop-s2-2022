@@ -14,7 +14,7 @@ void print_binary_str(std::string decimal_number){
     }
     int transformed[count];
     count = 0;
-    a = 75;
+    a = stoi(decimal_number);
     while (a!=0){
         b=a%2;
         a=a/2;
