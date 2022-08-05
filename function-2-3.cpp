@@ -11,14 +11,6 @@ bool is_palindrome(int array[], int n){
         }
     
     }
-    for ( int i = 0; i < (n/2); i++){
-        if (array[i] > fan_check){
-
-        }
-        else{
-            is_fan = false;
-        }
-    }
     if (n < 1){
         is_fan = false;
     }
@@ -43,13 +35,7 @@ int sum_if_palindrome(int integers[], int length){
     int sum;
     bool pal_check = is_palindrome(integers,length);
     if (pal_check == true){
-        if (length > 0){
-            sum = sum_array_elements(integers, length);
-        }
-        else{
-            sum = -1;
-        }
-        
+        sum = sum_array_elements(integers, length);
     }
     else{
         sum = -2;
