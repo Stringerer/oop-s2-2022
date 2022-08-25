@@ -22,7 +22,7 @@ string month_lookup(int month){
                 lilmonth = "May";
                 break;
             case 6:
-                lilmonth = "Jul";
+                lilmonth = "Jun";
                 break;
             case 7:
                 lilmonth = "Jul";
