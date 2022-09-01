@@ -4,9 +4,9 @@
 
 using namespace std;
 
-Wagon::Wagon() {
-    Capybara wagon[4] = {};
-    int count = 0;
+Wagon::Wagon(){
+    wagon;
+    count = 0;
 }
 
 bool Wagon::addCapybara(Capybara newCapy) {
@@ -15,10 +15,7 @@ bool Wagon::addCapybara(Capybara newCapy) {
         count++;
         return true;
     }
-    else{
-        cout << "Wagon's full" << endl;
-        return false;
-    }
+    return false;
 }
 
 void Wagon::emptyWagon(){

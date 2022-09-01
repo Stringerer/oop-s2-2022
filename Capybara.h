@@ -1,3 +1,6 @@
+#ifndef _CAPYBARA_H
+#define _CAPYBARA_H
+
 #include <string>
 
 using namespace std;
@@ -15,3 +18,4 @@ public:
     void setAge(int capyAge);
     int getAge();
 };
+ #endif

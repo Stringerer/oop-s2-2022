@@ -2,11 +2,13 @@
 #include "Capybara.h"
 using namespace std;
 
-class Wagon 
+class Wagon
 {
-    public:
+protected:
     Capybara wagon[4];
     int count;
+
+public:
     Wagon();
     bool addCapybara(Capybara newCapy);
     void emptyWagon();
