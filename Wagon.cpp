@@ -27,6 +27,6 @@ void Wagon::emptyWagon(){
 
 void Wagon::printCapybaras(){
     for (int i = 0; i < count; i++){
-        cout << wagon[i].getName() << endl;
+        cout << wagon[i].getName() << " " << wagon[i].getAge() << endl;
     }
 }
