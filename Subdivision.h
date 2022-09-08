@@ -25,4 +25,3 @@ public:
 // otherwise returns false
     bool add_house(House new_house);
 };
-~Subdivision(){delete hList[]};
