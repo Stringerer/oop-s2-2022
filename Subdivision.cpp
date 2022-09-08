@@ -7,13 +7,13 @@ using namespace std;
 Subdivision::Subdivision(){
     sName = "";
     ssize = 0;
-    hList;
+    hList = 0;
     count = 0;
 }
 Subdivision::Subdivision(string subName, int subSize){
     sName = subName;
     ssize = subSize;
-    hList;
+    hList = 0;
     count = 0;
 }
 int Subdivision::get_num_houses(){
@@ -29,6 +29,7 @@ bool Subdivision::add_house(House new_house){
     if (count = (ssize-1)){
         return false;
     }
-    *(hList + count) = new_house;
+    *(hList+count)=new_house;
+    count++;
     return true;
 }
