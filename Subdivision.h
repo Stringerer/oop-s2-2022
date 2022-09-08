@@ -24,4 +24,5 @@ public:
 // returns true and adds new house to the subdivision if the subdivision is not full
 // otherwise returns false
     bool add_house(House new_house);
+    ~Subdivision(){free(hList);hList = NULL;}
 };
