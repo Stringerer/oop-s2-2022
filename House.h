@@ -1,3 +1,5 @@
+#ifndef _HOUSE_H
+#define _HOUSE_H
 #include <iostream>
 #include <string>
 using namespace std;
@@ -12,3 +14,4 @@ public:
     string get_owner_name(); // returns the name of the house owner
     int get_lot_number();  // returns the house's lot number
 };
+#endif
