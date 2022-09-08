@@ -26,7 +26,7 @@ House * Subdivision::get_houses(){
     return hList;
 }
 bool Subdivision::add_house(House new_house){
-    if (count = (ssize-1)){
+    if (count = (ssize)){
         return false;
     }
     hList[count]=new_house;

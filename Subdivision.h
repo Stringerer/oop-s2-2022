@@ -8,7 +8,7 @@ class Subdivision{
 protected:
     string sName;
     int ssize;
-    House hList[20];
+    House * hList = new House[ssize];
     int count;
 public:
     Subdivision();                               // default constructor
