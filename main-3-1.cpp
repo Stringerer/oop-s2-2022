@@ -5,6 +5,6 @@
 using namespace std;
 
 int main(){
-    zoo s();
+    zoo s("zoo", 3, 4);
     return 0;
 }
