@@ -10,13 +10,13 @@ hunter::hunter(){
     name;
     animalID = hunter::nextID++;
     volume;
-    kills;
+    kills = 0;
 }
 hunter::hunter(string n, int v){
     name = n;
     animalID = hunter::nextID++;
     volume = v;
-    kills;
+    kills = 0;
 }
 int hunter::get_kills(){
     return kills;
