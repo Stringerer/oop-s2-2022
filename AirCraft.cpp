@@ -2,12 +2,12 @@
 
 AirCraft::AirCraft(){
     weight;
-    fuel = 1;
+    fuel = 100;
     numberOfFlights = 0;
 }
 AirCraft::AirCraft(int w){
     weight = w;
-    fuel = 1;
+    fuel = 100;
     numberOfFlights = 0;
 }
 void AirCraft::refuel(){
