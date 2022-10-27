@@ -33,7 +33,7 @@ void Helicopter::set_craftID(int c){
     craftID = c;
 }
 void Helicopter::fly(int headwind, int minutes){
-    if (fuel > 5670){
+    if (weight > 5670){
         if (headwind >= 40){
             if ((fuel -(0.4*minutes) - ((0.01*(weight-5670))*minutes)) < 20){
 
