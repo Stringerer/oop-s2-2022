@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
-    AirCraft p();
+    int a = 1;
+    a = a++;
     return 0;
 }
