@@ -12,7 +12,6 @@ private:
     string name;
     int craftID;
     static int heliID;
-    int extra;
 public:
     Helicopter();
     Helicopter(int w, string n);

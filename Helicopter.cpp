@@ -35,7 +35,7 @@ void Helicopter::set_craftID(int c){
 void Helicopter::fly(int headwind, int minutes){
     if (fuel > 5670){
         if (headwind >= 40){
-            if ((fuel - (fuel*0.04*minutes) - (fuel*(0.01*(fuel-5670))*minutes)) <= 20){
+            if ((fuel - (fuel*0.04*minutes) - (fuel*(0.01*(fuel-5670))*minutes)) < 20){
 
             }
             else{
@@ -44,7 +44,7 @@ void Helicopter::fly(int headwind, int minutes){
             }
         }
         else{
-            if ((fuel - (fuel*0.02*minutes) - (fuel*(0.01*(fuel-5670))*minutes)) <= 20){
+            if ((fuel - (fuel*0.02*minutes) - (fuel*(0.01*(fuel-5670))*minutes)) < 20){
 
             }
             else{
@@ -55,7 +55,7 @@ void Helicopter::fly(int headwind, int minutes){
     }
     else{
         if (headwind >= 40){
-            if ((fuel - (fuel*0.04*minutes)) <= 20){
+            if ((fuel - (fuel*0.04*minutes)) < 20){
 
             }
             else{
@@ -64,7 +64,7 @@ void Helicopter::fly(int headwind, int minutes){
             }
         }
         else{
-            if ((fuel - (fuel*0.02*minutes)) <= 20){
+            if ((fuel - (fuel*0.02*minutes)) < 20){
 
             }
             else{
