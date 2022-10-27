@@ -15,7 +15,7 @@ private:
     int count;
 public:
     void addAirCraft(AirCraft* aircraft);
-    Aircraft** get_fleet();
+    AirCraft** get_fleet();
     int get_count;
     static AirFleet** createFleet(int authority);
 };

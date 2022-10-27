@@ -11,7 +11,7 @@ void AirFleet::addAirCraft(AirCraft* aircraft){
     fleet[count] = aircraft;
     count++;
 }
-AirFleet::Aircraft** get_fleet(){
+AirFleet::AirCraft** get_fleet(){
     return fleet;
 }
 int AirFleet::get_count(){
